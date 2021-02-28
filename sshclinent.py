@@ -20,5 +20,5 @@ def ssh_command(ip, user, passwd):
     except:
         print("Connection failed")
 
-ssh_command("192.168.56.1", "DESKTOP-P67VALA@192.168.56.1", "1234")
+ssh_command("", "", "1234")
     
