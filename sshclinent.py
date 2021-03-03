@@ -8,7 +8,7 @@ def ssh_command(ip, user, passwd):
     try:
       client.set_missing_host_key_policy(par.AutoAddPolicy())
       client.connect(ip, username=user, password=passwd, port=22)
-      print("If u want to stop ennter: stop")
+      print("If u want to stop enter: stop")
       while True:
         command = input("Enter command: ")
         if command == "stop":
